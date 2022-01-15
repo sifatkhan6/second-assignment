@@ -1,0 +1,58 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.header-title{
+    color: black;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    margin-left: 10%;
+}
+
+/*first section*/
+
+.section1{
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.sec1-div1{
+    padding-right: 5%;
+}
+
+.section1-header{
+    color: black;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 70px;
+}
+
+.section1-paragraph{
+    color: black;
+    font-weight: 600px;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+.button1{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 10px 24px;
+    border-radius: 40px;
+}
+
+.fa-chevron-right{
+    padding-left: 10px;
+}
+
+.camera1{
+    width: 100%;
+    height: 100%;
+    padding-top: 15%;
+}
