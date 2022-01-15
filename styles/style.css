@@ -148,6 +148,8 @@ body{
 
 .section3-video{
     margin-left: 4%;
+    box-shadow: 0 0 15px rgb(160, 160, 160);
+    border-radius: 5px;
 }
 
 /*-------footer-------*/
