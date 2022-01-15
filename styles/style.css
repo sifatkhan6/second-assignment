@@ -14,7 +14,7 @@ body{
 
 .section1{
     display: flex;
-    align-items: center;
+    justify-items: center;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -54,5 +54,71 @@ body{
 .camera1{
     width: 100%;
     height: 100%;
-    padding-top: 15%;
+    padding-top: 5%;
+}
+
+/*second section*/
+
+.section2{
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.section2-header{
+    color: black;
+    text-align: center;
+}
+
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.product{
+    padding: 5%;
+    margin-top: 40px;
+    margin-right: 40px;
+    box-shadow: 0 0 15px rgb(160, 160, 160);
+    border-radius: 5px;
+}
+
+.product-image{
+    width: 100%;
+}
+
+.product-details{
+    padding: 2%;
+}
+
+.product-name{
+    font-size: 28px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.product-price{
+    font-size: 24px;
+    font-weight: 400px;
+    margin: 0;
+}
+
+.rating-stars{
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.star-color{
+    color: rgb(255, 196, 0);
+}
+
+.rating-paragraph{
+    margin: 0 0 0 5%;
+    padding: 8px;
+}
+
+.product-paragraph{
+    font-size: 14px;
+    margin: 0;
 }
