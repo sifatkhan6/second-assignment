@@ -122,3 +122,48 @@ body{
     font-size: 14px;
     margin: 0;
 }
+
+.sec2-see-more{
+    margin-top: 50px;
+    display: flex;
+    justify-content: right;
+    margin-right: 5%;
+}
+
+.see-more{
+    text-decoration: none;
+    color: black;
+}
+
+/*-------footer-------*/
+
+footer{
+    margin-top: 10%;
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer-header{
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+}
+
+.footer-paragraph{
+    color: white;
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
+}
+
+.footer-icons{
+    text-align: center;
+    margin-top: 10px;
+}
+.footer-icon{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
