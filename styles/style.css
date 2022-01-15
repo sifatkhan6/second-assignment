@@ -12,7 +12,7 @@ body{
 
 /*first section*/
 
-.section1{
+.section1, .section3{
     display: flex;
     justify-items: center;
     margin-left: 10%;
@@ -37,7 +37,7 @@ body{
     margin-bottom: 50px;
 }
 
-.button1{
+.button1, .button2{
     text-decoration: none;
     color: white;
     background-color: black;
@@ -138,6 +138,16 @@ body{
 .see-more{
     text-decoration: none;
     color: black;
+}
+
+/*section3*/
+
+.section3{
+    margin-top: 10%;
+}
+
+.section3-video{
+    margin-left: 4%;
 }
 
 /*-------footer-------*/
