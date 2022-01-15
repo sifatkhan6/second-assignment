@@ -12,7 +12,7 @@ body{
 
 /*first section*/
 
-.section1, .section3{
+.section1{
     display: flex;
     justify-items: center;
     margin-left: 10%;
@@ -143,6 +143,7 @@ body{
 /*section3*/
 
 .section3{
+    display: flex;
     margin-top: 10%;
 }
 
@@ -157,8 +158,10 @@ body{
 
 .section3-video{
     margin-left: 4%;
+    /*
     box-shadow: 0 0 15px rgb(160, 160, 160);
     border-radius: 5px;
+    */
 }
 
 /*-------footer-------*/
@@ -209,6 +212,10 @@ footer{
 
     .product{
         margin-right: 0;
+    }
+
+    .section3{
+        flex-direction: column;
     }
 }
 
