@@ -146,6 +146,15 @@ body{
     margin-top: 10%;
 }
 
+.section3-div1{
+    padding-top: 5%;
+    text-align: center;
+}
+
+.section3-header{
+    margin-bottom: 15%;
+}
+
 .section3-video{
     margin-left: 4%;
     box-shadow: 0 0 15px rgb(160, 160, 160);
